@@ -5,15 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace Amazon
-{   
-
-    public class RateCalculator
-    {
-        public int Claculate(Customer customer)
-        {
-            return 0;
-        }
-    }
+{
     public class Customer
     {
         public int Id { get; set; }

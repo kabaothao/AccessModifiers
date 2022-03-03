@@ -1,6 +1,8 @@
 ﻿// See https://aka.ms/new-console-template for more information
 //Console.WriteLine("Hello, World!");
 
+using Amazon;
+
 namespace AccessModifiers
 {
 
@@ -19,6 +21,8 @@ namespace AccessModifiers
         {
             var customer = new Customer();
             //var rating = customer.CalculateRating();
+
+            Amazon.RateCalculator calculator = new Amazon.RateCalculator();
         }
 
 
